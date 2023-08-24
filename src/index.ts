@@ -38,8 +38,8 @@ export function bindFlmngr(config: FlmngrExpressConfig): void {
     if (!!config.urlFiles) {
         // Serve static files uploaded to the storage
         config.app.use(
-            "/files/",
-            express.static("./files")
+            config.urlFiles,
+            express.static(config.dirFiles)
         );
     }
 
