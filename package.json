@@ -1,7 +1,7 @@
 {
   "name": "@flmngr/flmngr-server-node-express",
   "description": "Include Flmngr file manager server-side into your Express app or website",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "private": false,
   "author": {
     "name": "EdSDK",
@@ -16,7 +16,7 @@
   },
   "type": "commonjs",
   "dependencies": {
-    "@flmngr/flmngr-server-node": "^1.5.2",
+    "@flmngr/flmngr-server-node": "^1.5.3",
     "body-parser": "^1",
     "connect-busboy": "^1",
     "cors": "^2",
